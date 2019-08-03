@@ -12,5 +12,5 @@ function clean($text){
 	global $connection;
 	return $connection->quote($text);
 }
-dbconnect("", "");
+dbconnect("dbname", "dbpass");
 ?>
